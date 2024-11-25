@@ -1,0 +1,12 @@
+com\design_system\jsp_servlet_jpa\servlets\SVEliminarUsuario.class
+com\design_system\jsp_servlet_jpa\servlets\SVUsuario.class
+com\design_system\jsp_servlet_jpa\logica\Controladora.class
+com\design_system\jsp_servlet_jpa\persistencia\ControladoraPersistencia.class
+com\design_system\jsp_servlet_jpa\persistencia\exceptions\NonexistentEntityException.class
+com\design_system\jsp_servlet_jpa\persistencia\exceptions\PreexistingEntityException.class
+com\design_system\jsp_servlet_jpa\resources\JakartaEE8Resource.class
+com\design_system\jsp_servlet_jpa\persistencia\UsuarioJpaController.class
+com\design_system\jsp_servlet_jpa\JakartaRestConfiguration.class
+com\design_system\jsp_servlet_jpa\servlets\SVActualizarUsuario.class
+com\design_system\jsp_servlet_jpa\persistencia\exceptions\IllegalOrphanException.class
+com\design_system\jsp_servlet_jpa\pojo\Usuario.class

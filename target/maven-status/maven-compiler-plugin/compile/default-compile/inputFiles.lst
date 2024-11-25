@@ -1,0 +1,12 @@
+C:\NetBeansProjects\Jsp_Servlet_Jpa\src\main\java\com\design_system\jsp_servlet_jpa\JakartaRestConfiguration.java
+C:\NetBeansProjects\Jsp_Servlet_Jpa\src\main\java\com\design_system\jsp_servlet_jpa\logica\Controladora.java
+C:\NetBeansProjects\Jsp_Servlet_Jpa\src\main\java\com\design_system\jsp_servlet_jpa\persistencia\ControladoraPersistencia.java
+C:\NetBeansProjects\Jsp_Servlet_Jpa\src\main\java\com\design_system\jsp_servlet_jpa\persistencia\exceptions\IllegalOrphanException.java
+C:\NetBeansProjects\Jsp_Servlet_Jpa\src\main\java\com\design_system\jsp_servlet_jpa\persistencia\exceptions\NonexistentEntityException.java
+C:\NetBeansProjects\Jsp_Servlet_Jpa\src\main\java\com\design_system\jsp_servlet_jpa\persistencia\exceptions\PreexistingEntityException.java
+C:\NetBeansProjects\Jsp_Servlet_Jpa\src\main\java\com\design_system\jsp_servlet_jpa\persistencia\UsuarioJpaController.java
+C:\NetBeansProjects\Jsp_Servlet_Jpa\src\main\java\com\design_system\jsp_servlet_jpa\pojo\Usuario.java
+C:\NetBeansProjects\Jsp_Servlet_Jpa\src\main\java\com\design_system\jsp_servlet_jpa\resources\JakartaEE8Resource.java
+C:\NetBeansProjects\Jsp_Servlet_Jpa\src\main\java\com\design_system\jsp_servlet_jpa\servlets\SVActualizarUsuario.java
+C:\NetBeansProjects\Jsp_Servlet_Jpa\src\main\java\com\design_system\jsp_servlet_jpa\servlets\SVEliminarUsuario.java
+C:\NetBeansProjects\Jsp_Servlet_Jpa\src\main\java\com\design_system\jsp_servlet_jpa\servlets\SVUsuario.java
