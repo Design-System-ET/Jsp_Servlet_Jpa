@@ -4,13 +4,13 @@
 
 Este proyecto es un ejemplo funcional que implementa un CRUD (Crear, Leer, Actualizar, Eliminar) utilizando tecnologías Java Web. Combina el uso de **Servlets** y **JSP** con el patrón de diseño **MVC**, proporcionando una base sólida para el desarrollo de aplicaciones web dinámicas. Es ideal para aprender y aplicar conceptos básicos y avanzados de desarrollo web utilizando Servlets y JPA para la persistencia de datos.
 
-### Características principales
+## Características principales
 
 - Estructura basada en MVC para separar lógica, control y vista.
 - CRUD funcional que gestiona operaciones con persistencia en base de datos.
 - Uso de tecnologías modernas como Jakarta para manejar solicitudes HTTP y persistencia con JPA.
 
-## Tecnologías Usadas
+# Tecnologías Usadas
 
 El proyecto utiliza las siguientes herramientas y tecnologías:
 
@@ -20,30 +20,26 @@ El proyecto utiliza las siguientes herramientas y tecnologías:
 - **Tomcat**: Servidor de aplicaciones versión 10.1.33.
 - **Jakarta EE**: Versión 10, sucesor de Java EE, para manejar solicitudes HTTP y persistencia.
 
-## Requisitos Previos
-
-### Software necesario
+# Requisitos Previos
+## Software necesario
 
 - **NetBeans IDE**: Versión 23.
 - **Java JDK**: Versión 23.
 
-### Notas importantes
+## Notas importantes
 
 - Todas las dependencias necesarias están gestionadas en el archivo pom.xml del proyecto.
 - La base de datos debe configurarse previamente, pero no requiere tablas creadas.
 
-## Instalación
-
-### 1\. Clonar el repositorio
-
+# Instalación
+## 1\. Clonar el repositorio
 En tu terminal, ejecuta el siguiente comando para clonar el proyecto:
 
 ```
 git clone <https://github.com/Design-System-ET/Jsp_Servlet_Jpa.git>
 ```
 
-### 2\. Configuración del entorno
-
+## 2\. Configuración del entorno
 1. **Base de datos**:
     - Crea un esquema vacío en tu base de datos MySQL.
 2. **Conexión a la base de datos**:
@@ -54,20 +50,20 @@ git clone <https://github.com/Design-System-ET/Jsp_Servlet_Jpa.git>
     - Descarga Tomcat 10 ([descarga oficial](https://tomcat.apache.org/download-10.cgi)).
     - Configúralo como servidor en NetBeans.
 
-### 3\. Dependencias
+## 3\. Dependencias
 
 Construye el proyecto y descarga todas las dependencias necesarias:
 
 1. Haz clic derecho sobre el proyecto en NetBeans.
 2. Selecciona **"Build With Dependencies"**.
 
-## Configuración del Proyecto
+# Configuración del Proyecto
 
-### 1\. Base de datos
+## 1\. Base de datos
 
 No es necesario crear tablas manualmente, pero asegúrate de tener un esquema vacío listo.
 
-### 2\. Archivo persistence.xml
+## 2\. Archivo persistence.xml
 
 Configura las siguientes propiedades en el archivo:
 
@@ -94,8 +90,7 @@ Configura las siguientes propiedades en el archivo:
 
 Asegúrate de que el nombre del esquema, usuario y contraseña coincidan con tu configuración de MySQL.
 
-### 3\. UsuarioJpaController
-
+## 3\. UsuarioJpaController
 En el constructor del EntityManagerFactory, verifica que el nombre de la unidad de persistencia coincide con el especificado en persistence.xml.
 
 ```java
@@ -106,14 +101,13 @@ En el constructor del EntityManagerFactory, verifica que el nombre de la unidad 
 
 ```
 
-## Estructura del Proyecto
+# Estructura del Proyecto
 
 La estructura está organizada siguiendo el patrón MVC para garantizar modularidad y claridad:
 
 
-## Uso
-
-### 1\. Iniciar la aplicación
+# Uso
+## 1\. Iniciar la aplicación
 
 Ejecuta el proyecto desde NetBeans, seleccionando el servidor Tomcat configurado.
 
@@ -125,8 +119,7 @@ Una vez desplegado, accede a la aplicación desde tu navegador en:
 
 ```
 
-### 2\. Funcionalidades CRUD
-
+## 2\. Funcionalidades CRUD
 Las operaciones disponibles son:
 
 - **Crear**: Agregar nuevos registros a la base de datos.
@@ -134,8 +127,7 @@ Las operaciones disponibles son:
 - **Actualizar**: Modificar registros existentes.
 - **Eliminar**: Borrar registros.
 
-## Licencia
-
+# Licencia
 Este proyecto está licenciado bajo la **MIT License**.
 
 Puedes encontrar el texto completo de la licencia en el archivo LICENSE.
