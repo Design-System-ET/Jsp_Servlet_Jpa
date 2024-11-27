@@ -88,7 +88,7 @@ Configura las siguientes propiedades en el archivo:
 
 ```
 
-Asegúrate de que el nombre del esquema, usuario y contraseña coincidan con tu configuración de MySQL.
+Asegúrate de que el nombre del esquema, usuario y contraseña coincidan con tu configuración de MySQL, asegurate tambien definir el nombre de la UP.
 
 ## 3\. UsuarioJpaController
 En el constructor del EntityManagerFactory, verifica que el nombre de la unidad de persistencia coincide con el especificado en persistence.xml.
